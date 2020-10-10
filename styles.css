@@ -1,0 +1,48 @@
+body {
+    background-color: #f6f4dd;
+  }
+
+.banner {
+    background-color: 	#f36e41;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.bannerText {
+    color:  #f6f4dd;
+}
+
+.container {
+    font-family: 'Comfortaa', cursive;
+}
+
+.katieImg {
+    height: 500px;
+    width: auto;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;   
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.raspPop {
+    border-radius: 50%;
+    border: 10px solid #fbb050;
+    margin: 50px;
+}
