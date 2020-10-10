@@ -22,6 +22,22 @@ body {
     height: 25px;   
 }
 
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #f6f4dd;;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #fbb050;
+  }
+
 .logo {
     display: flex;
     flex-direction: row;
@@ -34,7 +50,6 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #f59ba9;   
-    border-top: 25px solid #f36e41;
 }
 
 .main-text {
@@ -45,6 +60,14 @@ body {
     justify-content: center;
     width: 300px;
     height: 300px;
+}
+
+.nav-bar {
+    background-color: #f36e41;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 .rasp-pop {
