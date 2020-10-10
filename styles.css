@@ -2,25 +2,24 @@ body {
     background-color: #f6f4dd;
   }
 
-.banner {
-    background-color: 	#f36e41;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-
-.bannerText {
-    color:  #f6f4dd;
-}
-
 .container {
+    position: relative;
+    min-height: 100vh;
     font-family: 'Comfortaa', cursive;
 }
 
-.katieImg {
-    height: 500px;
-    width: auto;
+.content-wrap {
+    padding-bottom: 25px;
+    width: 100%;
+}
+
+.footer {
+    display: block;
+    background-color: 	#f36e41; 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 25px;   
 }
 
 .logo {
@@ -31,18 +30,28 @@ body {
 
 .main {
     display: flex;
-    flex-direction: row;   
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #f59ba9;   
+    border-top: 25px solid #f36e41;
 }
 
-.mainContent {
+.main-text {
+    color: #4f595f;
     display: flex;
     flex-direction: column;
+    
     justify-content: center;
-    padding-top: 50px;
+    width: 300px;
+    height: 300px;
 }
 
-.raspPop {
+.rasp-pop {
     border-radius: 50%;
     border: 10px solid #fbb050;
     margin: 50px;
+    width: 300px;
+    height: 300px;
+    transform: rotate(-20deg);
 }
