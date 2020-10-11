@@ -7,6 +7,25 @@ body {
     background-color: #f6f4dd;
   }
 
+.ig-link a:hover {
+    background-color: #f59ba9;
+    color: #fbb050;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.circle-pop {
+    border-radius: 5%;
+    border: 10px solid #fbb050;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
 .container {
     position: relative;
     min-height: 100vh;
@@ -16,6 +35,11 @@ body {
 .content-wrap {
     padding-bottom: 25px;
     width: 100%;
+}
+
+.fa-instagram {
+    padding-top: 20px;
+    color:#f36e41;
 }
 
 .footer {
@@ -64,17 +88,9 @@ li {
 }
 
 .main {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
     background-color: #f59ba9;   
     padding-left: 50px;
     padding-right: 50px;
-}
-
-.pop-img {
-    margin: 50px;
 }
 
 .main-text {
@@ -99,10 +115,30 @@ li {
     overflow: hidden;
 }
 
-.circle-pop {
-    border-radius: 5%;
-    border: 10px solid #fbb050;
-    width: 100%;
-    max-width: 300px;
-    height: auto;
+.pops {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pop-img {
+    margin: 50px;
+}
+
+.title {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    margin-right: 225px;
+    margin-left: 225px;
+}
+
+.title-text {
+    color: #f36e41;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 46px;
 }
