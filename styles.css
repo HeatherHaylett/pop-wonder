@@ -44,6 +44,13 @@ li {
     justify-content: center;
 }
 
+.katie {
+    background-image: url("images/katie.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
 .main {
     display: flex;
     flex-direction: row;
