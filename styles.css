@@ -7,19 +7,17 @@ body {
     background-color: #f6f4dd;
   }
 
-.ig-link a:hover {
-    background-color: #f59ba9;
+a.img-link:hover {
     color: #fbb050;
 }
 
 .img-link {
+    color: #f36e41;
     text-decoration: none;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
-
-
 
 .circle-pop {
     border-radius: 5%;
@@ -138,7 +136,6 @@ li {
 }
 
 .title-text {
-    color: #f36e41;
     font-weight: bold;
     text-align: center;
     padding: 20px;
