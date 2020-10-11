@@ -7,16 +7,20 @@ body {
     background-color: #f6f4dd;
   }
 
-a.img-link:hover {
-    color: #fbb050;
-}
-
 .img-link {
     color: #f36e41;
     text-decoration: none;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+a.img-link:hover {
+    color: #fbb050;
+}
+
+a.img-visited:hover {
+    color: #f36e41;
 }
 
 .circle-pop {
@@ -125,6 +129,12 @@ li {
 
 .pop-img {
     margin: 50px;
+}
+
+.tag {
+    color: #505a5f;
+    text-align: center;
+    font-size: 30px;
 }
 
 .title {
