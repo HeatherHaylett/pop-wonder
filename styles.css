@@ -12,8 +12,11 @@ body {
     color: #fbb050;
 }
 
-a {
+.img-link {
     text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 
@@ -38,7 +41,7 @@ a {
 }
 
 .fa-instagram {
-    padding-top: 20px;
+    padding-top: 15px;
     color:#f36e41;
 }
 
@@ -128,17 +131,16 @@ li {
 
 .title {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
     justify-content: space-evenly;
     padding-top: 25px;
-    margin-right: 225px;
-    margin-left: 225px;
+
 }
 
 .title-text {
     color: #f36e41;
     font-weight: bold;
     text-align: center;
-    padding-top: 20px;
+    padding: 20px;
     font-size: 46px;
 }
