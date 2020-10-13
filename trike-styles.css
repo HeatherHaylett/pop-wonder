@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #f6f4dd;
   }
@@ -14,6 +19,36 @@ body {
     align-items: center;
 }
 
-.header {
+.footer {
+    display: block;
+    background-color: 	#f36e41; 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 25px;   
+}
 
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #fbb050;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #fbb050;
+    color:  #f36e41;
+  }
+
+.nav-bar {
+    background-color: #f36e41;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
