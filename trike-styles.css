@@ -1,6 +1,8 @@
 * {
-    margin: 0;
-    padding: 0;
+  box-sizing: content-box;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -16,17 +18,13 @@ html {
     font-size: 10px;
 }
 
-.color-block {
-  background-color: #4b575d;
-}
-
 .container {
-  background-image: url("images/pop_wonder_sides.png");
   background-size: cover; 
   background-position: center center;
   max-width: 100vw;
   height: 100vh;
-  font-family: 'Comfortaa', cursive;
+  overflow: visible;
+
 }
 
 .events {
@@ -34,8 +32,9 @@ html {
     flex-direction: column;
     align-items: center;
     background-color: #f59ba9;
-    padding: 30px;
-    width: 50%;
+    /* width: 50vh; */
+    min-height: 90%;
+
 }
 
 .event-name {
@@ -60,12 +59,12 @@ html {
 }
 
 #katie {
-  max-height: 500px;
-  max-width: 50vw;
+    height: 48vh;
 }
 
 li {
     float: left;
+    font-family: 'Comfortaa', cursive;
   }
   
   li a {
@@ -81,6 +80,13 @@ li {
     background-color: #fbb050;
     color:  #f36e41;
   }
+
+.main-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
 .nav-bar {
   display: flex;
