@@ -1,6 +1,7 @@
 * {
-    box-sizing: border-box;
-    width: 100%;
+    font-family: 'Comfortaa', cursive;
+    /* box-sizing: border-box;
+    width: 100%; */
     margin: 0;
     padding: 0;
 }
@@ -11,7 +12,9 @@ html {
 
 body {
     background-color: #f6f4dd;
+    min-height: 1,500px;
   }
+
 
 .img-link {
     color: #f36e41;
@@ -37,12 +40,11 @@ a.img-visited:hover {
     height: auto;
 }
 
-.container {
-    font-family: 'Comfortaa', cursive;
-}
+/* .container {
+    
+} */
 
 .content-wrap {
-    padding-bottom: 25px;
     width: 100%;
     overflow: visible;
 }
@@ -55,12 +57,21 @@ a.img-visited:hover {
 .footer {
     display: block;
     background-color: 	#f36e41; 
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
-    height: 25px;   
+    height: 50px;   
 }
-
+#header-text {
+    position: relative;
+    color: #f36e41;
+    font-size: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    -webkit-text-stroke: 2px #f6f4dd;
+}
 li {
     float: left;
     
@@ -126,7 +137,15 @@ li {
     padding: 0;
     overflow: hidden;
 }
-
+#parallax {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .pops {
     display: flex;
     flex-direction: row;
@@ -137,7 +156,15 @@ li {
 .pop-img {
     margin: 50px;
 }
-
+.section-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
 .tag {
     color: #505a5f;
     text-align: center;

@@ -11,11 +11,21 @@
 </head>
 
 <body>
-    <div class="container">
+    <section id="parallax">
+        <img src="images/katie.png" id="katie-biking" class="section-img">
+        <h2 id="header-text" class="section-img">Pop Wonder Ice Pops</h2>
+    </section>
+    <script type="text/javascript">
+        let katieBiking = document.getElementById("katie-biking");
 
-        <header class="logo">
-            <img class="logo" src="images/logo.png" alt="PopWonder.com">
-        </header>
+        window.addEventListener('scroll', function() {
+            let value = window.scrollY;
+            katieBiking.style.top = value + 0.5 + 'px';
+           
+        })
+    </script>
+
+    <div class="container">
 
         <ul class="nav-bar">
             <li ><a href="index.html" id="about">About</a> </li>
@@ -25,12 +35,6 @@
         </ul>
 
         <div class="content-wrap">
-            <div class="katie">
-                <div class="main-text-container">
-                    <p class="main-text">Made by hand, Pop Wonder ice pops are created with real fruit found in Idaho.
-                    </p>
-                </div>
-            </div>
             <section class="main">
                 <div class="title">
                     <a href="https://www.instagram.com/pop_wonder_boise/?hl=en" class="img-link">
