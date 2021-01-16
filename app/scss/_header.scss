@@ -1,0 +1,24 @@
+.header {
+    nav {
+        padding: 44px 151px 44px 151px;
+    }
+
+    &__links {
+
+        a {
+            font-size: $font_med;
+            padding: 9px 18px 9px 18px;
+            background-color: $red-orange;
+            color: $cream;
+        }
+
+        a:not(:last-child) {
+            margin-right:3.125rem;
+        }
+
+        a:hover {
+            background-color: $orange;
+        }
+
+    }
+}

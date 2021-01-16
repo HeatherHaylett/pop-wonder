@@ -5,14 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pop Wonder</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/app/scss/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 </head>
 
 <body>
 
-<script type="module" src="script.js"></script>
+<header class="header">
+    <nav class="flex flex-jc-sb flex-ai-c">
+        <a href="/" class="header__logo">
+            <img src="images/logo.svg" alt="pop wonder">
+        </a>
+
+        <div class="header__links">
+            <a href="/about">About</a>
+            <a href="/trike">Find the Trike</a>
+            <a href="/contact">Contact</a>
+        </div>
+
+    </nav>
+</header>
+
+<script type="module" src="/app/js/script.js"></script>
 </body>
 
 </html>
