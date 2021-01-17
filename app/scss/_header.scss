@@ -1,13 +1,18 @@
 .header {
     nav {
-        padding: 44px 151px 44px 151px;
+        padding: 2.75em 9.4375em 2.75em 9.4375em;
     }
 
     &__links {
 
+        // dont display link on small screens
+        @include breakpoint-down(medium) {
+            display: none;
+        }
+
         a {
             font-size: $font_med;
-            padding: 9px 18px 9px 18px;
+            padding: 0.5625em 1.125em 0.5625em 1.125em;
             background-color: $red-orange;
             color: $cream;
         }
