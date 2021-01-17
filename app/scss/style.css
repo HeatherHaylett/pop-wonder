@@ -33,6 +33,13 @@ a, a:visited, a:hover {
   display: flex;
 }
 
+.flex-fd-c {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .flex-jc-sb {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -97,9 +104,12 @@ a, a:visited, a:hover {
 
 @media (max-width: 63.9375em) {
   .introduction__links a {
+    width: 100%;
     font-size: 1.625rem;
     background-color: #f36e41;
     color: #f6f4dd;
+    text-align: center;
+    padding: 0.5625em 1.125em 0.5625em 1.125em;
   }
   .introduction__links a:hover {
     background-color: #fbb050;

@@ -10,12 +10,16 @@
     }
 
     &__links {
+        
         @include breakpoint-up(medium) {display: none;}
         @include breakpoint-down(medium) {  
             a {
+                width: 100%;
                 font-size: $font_med;
                 background-color: $red-orange;
                 color: $cream;
+                text-align: center;
+                padding: 0.5625em 1.125em 0.5625em 1.125em;
             }
             a:hover {
                 background-color: $orange;
