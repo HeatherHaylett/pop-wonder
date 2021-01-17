@@ -4,6 +4,12 @@ html {
           box-sizing: border-box;
 }
 
+@media (min-width: 40em) {
+  html {
+    min-height: 100%;
+  }
+}
+
 *, *::before, *::after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
@@ -20,18 +26,14 @@ body {
   background-size: cover;
 }
 
-a, a:visited, a:hover {
-  text-decoration: none;
-}
-
-/* larger screens */
-@media (min-width: 600px) {
+@media (max-width: 87.4375em) {
   body {
     background-image: url("/images/background.png");
   }
-  html {
-    min-height: 100%;
-  }
+}
+
+a, a:visited, a:hover {
+  text-decoration: none;
 }
 
 .flex {
@@ -59,12 +61,18 @@ a, a:visited, a:hover {
 }
 
 .header nav {
-  padding: 44px 151px 44px 151px;
+  padding: 2.75em 9.4375em 2.75em 9.4375em;
+}
+
+@media (max-width: 63.9375em) {
+  .header__links {
+    display: none;
+  }
 }
 
 .header__links a {
   font-size: 1.625rem;
-  padding: 9px 18px 9px 18px;
+  padding: 0.5625em 1.125em 0.5625em 1.125em;
   background-color: #f36e41;
   color: #f6f4dd;
 }

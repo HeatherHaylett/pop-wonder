@@ -1,6 +1,7 @@
 html {
     font-size: 100%;
     box-sizing: border-box;
+    @include breakpoint-up(medium){min-height: 100%;}
 }
 
 *, *::before, *::after {
@@ -22,19 +23,6 @@ body {
 a, a:visited, a:hover {
     text-decoration: none;
 }
-
-
-
-
-/* larger screens */
-
-    body {
-       
-    }
-    html {
-        min-height: 100%;
-    }
-
 
 // flexbox
 .flex {
