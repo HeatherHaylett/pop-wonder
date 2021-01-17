@@ -1,0 +1,35 @@
+.introduction {
+
+    &__image {
+        position: relative;
+        background-image: url("/images/small_background.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        min-height: 17.5rem;
+    }
+
+    &__links {
+        @include breakpoint-up(medium) {display: none;}
+        @include breakpoint-down(medium) {  
+            a {
+                font-size: $font_med;
+                background-color: $red-orange;
+                color: $cream;
+            }
+            a:hover {
+                background-color: $orange;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+// background-color: $cream;
+
+// min-height: 100%;
+// @include breakpoint-down(large) {background-image: url("/images/background.png");}
