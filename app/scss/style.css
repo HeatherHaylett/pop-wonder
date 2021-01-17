@@ -111,8 +111,5 @@ a, a:visited, a:hover {
     text-align: center;
     padding: 0.5625em 1.125em 0.5625em 1.125em;
   }
-  .introduction__links a:hover {
-    background-color: #fbb050;
-  }
 }
 /*# sourceMappingURL=style.css.map */
