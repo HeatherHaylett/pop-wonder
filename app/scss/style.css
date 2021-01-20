@@ -27,6 +27,25 @@ a, a:visited, a:hover {
   text-decoration: none;
 }
 
+.container {
+  max-width: 69.375rem;
+  margin: 0 auto;
+}
+
+.container--pall {
+  padding-top: 2rem;
+  padding-right: 1.5rem;
+  padding-bottom: 2rem;
+  padding-left: 1.5rem;
+}
+
+@media (min-width: 64em) {
+  .container--pall {
+    padding-top: 2.3975rem;
+    padding-bottom: 2.3975rem;
+  }
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -59,11 +78,14 @@ a, a:visited, a:hover {
 }
 
 .header nav {
-  padding: 2.75em 9.4375em 2.75em 9.4375em;
   position: absolute;
   width: 100%;
-  height: 100;
   z-index: 1;
+}
+
+.header__logo img {
+  width: 8.8125rem;
+  height: 1.375rem;
 }
 
 @media (max-width: 63.9375em) {
@@ -74,7 +96,7 @@ a, a:visited, a:hover {
 
 .header__links a {
   font-size: 1.625rem;
-  padding: 0.5625em 1.125em 0.5625em 1.125em;
+  padding: 0.5625rem 1.125rem 0.5625rem 1.125rem;
   background-color: #f36e41;
   color: #f6f4dd;
 }
@@ -103,11 +125,12 @@ a, a:visited, a:hover {
 }
 
 @media (max-width: 63.9375em) {
-  .introduction__links a {
+  .introduction__links button {
     width: 100%;
     font-size: 1.625rem;
-    background-color: #f36e41;
-    color: #f6f4dd;
+    background-color: #f6f4dd;
+    color: #f36e41;
+    border: 0.5px solid #f36e41;
     text-align: center;
     padding: 0.5625em 1.125em 0.5625em 1.125em;
   }

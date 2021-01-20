@@ -20,6 +20,24 @@ a, a:visited, a:hover {
     text-decoration: none;
 }
 
+
+.container {
+    max-width: 69.375rem;
+    margin: 0 auto;
+  
+    &--pall {
+      padding-top: 2rem;
+      padding-right: 1.5rem;
+      padding-bottom: 2rem;
+      padding-left: 1.5rem;
+  
+      @include breakpoint-up(large){
+        padding-top: 2.3975rem;
+        padding-bottom: 2.3975rem;
+      }
+    }
+}
+
 // flexbox
 .flex {
   display: flex;

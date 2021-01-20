@@ -1,13 +1,18 @@
 .header {
 
-   
 
     nav {
-        padding: 2.75em 9.4375em 2.75em 9.4375em;
         position: absolute;
         width: 100%;
-        height: 100;
         z-index: 1;
+    }
+
+    &__logo {
+        img {
+            width: 8.8125rem;
+            height: 1.375rem;
+        }
+
     }
 
     &__links {
@@ -19,7 +24,7 @@
 
         a {
             font-size: $font_med;
-            padding: 0.5625em 1.125em 0.5625em 1.125em;
+            padding: 0.5625rem 1.125rem 0.5625rem 1.125rem;
             background-color: $red-orange;
             color: $cream;
         }

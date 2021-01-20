@@ -13,11 +13,12 @@
 
         @include breakpoint-up(medium) {display: none;}
         @include breakpoint-down(medium) {  
-            a {
+            button {
                 width: 100%;
                 font-size: $font_med;
-                background-color: $red-orange;
-                color: $cream;
+                background-color: $cream;
+                color: $red-orange;
+                border: .5px solid $red-orange;
                 text-align: center;
                 padding: 0.5625em 1.125em 0.5625em 1.125em;
             }
